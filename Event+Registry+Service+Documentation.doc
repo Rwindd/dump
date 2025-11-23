@@ -1,0 +1,1580 @@
+Date: Sun, 23 Nov 2025 10:47:00 +0000 (UTC)
+Message-ID: <1326506651.55.1763894820863@872d49651a01>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_54_911435261.1763894820862"
+
+------=_Part_54_911435261.1763894820862
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Event Registry Service Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Event Registry Service Documentation</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p><strong>Introduction</strong>&nbsp;</p><span class=3D"confluence-embedde=
+d-file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-em=
+bedded-image" width=3D"468" loading=3D"lazy" src=3D"ea276b97a0435bd78195762=
+500300ab2e3943aee05cbb44e68211164fe091a60" data-image-src=3D"https://starhe=
+althinsurance.atlassian.net/wiki/download/attachments/1309179905/zenuml-39f=
+5bb1d-4d7f-440e-a2b5-859aa1f362ed.png?version=3D1&amp;modificationDate=3D17=
+48335799021&amp;cacheVersion=3D1&amp;api=3Dv2" data-unresolved-comment-coun=
+t=3D"0" data-linked-resource-id=3D"1332084787" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"zenuml-39f5bb1d-4d7f-440e-a2b5-859aa1f362ed.png" data-base-url=
+=3D"https://starhealthinsurance.atlassian.net/wiki" data-linked-resource-co=
+ntent-type=3D"image/png" data-linked-resource-container-id=3D"1309179905" d=
+ata-linked-resource-container-version=3D"4" data-media-id=3D"7657c2d6-8678-=
+4527-81cb-dffa70201819" data-media-type=3D"file" height=3D"3656"></span></l=
+i>
+</ol>
+<p>This document explains how the Event Registry Service works. It manages =
+relationships between publishers (who send out events), subscribers (who re=
+ceive events), and the events themselves.&nbsp;</p>
+<p>The service allows users to:&nbsp;</p>
+<ul>
+<li>
+<p>Create, update, and view events, publishers, and subscribers.&nbsp;</p><=
+/li>
+<li>
+<p>Map events to publishers and subscribers to establish connections.&nbsp;=
+</p></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>ER Diagram:</strong>&nbsp;</p>
+<p>&nbsp;</p><span class=3D"confluence-embedded-file-wrapper image-center-w=
+rapper confluence-embedded-manual-size"><img class=3D"confluence-embedded-i=
+mage image-center" alt=3D"er-20250509-090431.png" width=3D"468" loading=3D"=
+lazy" src=3D"dcdabe3490a575208a1ed87451c313277e9b391b1f6b0f08f4f099f1b81b04=
+d5" data-image-src=3D"https://starhealthinsurance.atlassian.net/wiki/downlo=
+ad/attachments/1309179905/er-20250509-090431.png?version=3D1&amp;modificati=
+onDate=3D1747287413566&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"40=
+9" data-width=3D"533" data-unresolved-comment-count=3D"0" data-linked-resou=
+rce-id=3D"1309179914" data-linked-resource-version=3D"1" data-linked-resour=
+ce-type=3D"attachment" data-linked-resource-default-alias=3D"er-20250509-09=
+0431.png" data-base-url=3D"https://starhealthinsurance.atlassian.net/wiki" =
+data-linked-resource-content-type=3D"image/png" data-linked-resource-contai=
+ner-id=3D"1309179905" data-linked-resource-container-version=3D"4" data-med=
+ia-id=3D"5a2f4611-4f80-4691-aa71-8b287b7a181b" data-media-type=3D"file" hei=
+ght=3D"358"></span>
+<ol start=3D"2">
+<li>
+<p><strong>Data Model Overview</strong>&nbsp;</p></li>
+</ol>
+<p>The system uses several collections (like tables) to organize data:&nbsp=
+;</p>
+<p><strong>Events</strong>&nbsp;</p>
+<p>Stores details about each event.&nbsp;</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d0=
+5c0f1e-def3-4f66-8598-ab8d95bdc9dd" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Field Name</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Data Type</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Description</strong>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>eventId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Unique ID for the event&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>eventName&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p>
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Unique Name of the event&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>description&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p>
+<p>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Brief description&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>createdDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>LocalDataTime</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>When the event was created&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>updatedDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>LocalDateTime</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Last update time&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>status</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Whether the event is active (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>schemaId</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Unique ID for Schema</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>schemaVersion&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Version of the data format&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>priority&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Event importance (low, medium, high)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>schemaValidationRequired</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>If data validation is needed (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>isSequence</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>If sequence validation needed (True/False)&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Publishers</strong>&nbsp;</p>
+<p>Stores information about entities that publish events.&nbsp;</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6e=
+20816f-6e05-4580-a17c-c6ea0b903e33" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Field Name</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Data Type</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Description</strong>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>publisher_id&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Unique ID&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>publisherName</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Publisher's name&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>description&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Details about the publisher&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>status</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Active status (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>createdDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Creation date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>updatedDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Last update date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>webhookDetails</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Object</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Contains Callback URL for the publisher</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Subscribers</strong>&nbsp;</p>
+<p>Stores details of entities that subscribe to events.&nbsp;</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"29=
+1123be-1f20-48c5-ba3b-595d738990ce" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Field Name</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Data Type</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Description</strong>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>subscriberId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Unique ID&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>subscriberName</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Subscriber's name&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>description&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Details about the subscriber&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>status</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Active status (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>createdDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Creation date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>updatedDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Last update date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>topicName</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Kafka topic of the subscriber</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><strong>Mappings</strong>&nbsp;</p>
+<p>Link publishers and events:&nbsp;</p>
+<ul>
+<li>
+<p><strong>Publisher_Event Collection:</strong> Connects publishers to even=
+ts.&nbsp;</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fe=
+94c551-7a7f-49f6-b388-79abf818775f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Field Name</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Data Type</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Description</strong>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>publisherEventId</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>unique ID for the publisher event mapping</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>publisherId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>ID of the publisher&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>eventId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Event mapped to the publisher&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>status</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Active status (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>createdDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Creation date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>updatedDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Last updated date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>webhookEnabled</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>webhook enable status (True/False)&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<ul>
+<li>
+<p><strong>Subscriber_Event Collection:</strong> Connects subscribers to ev=
+ents.&nbsp;</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6f=
+3a69e5-5a74-4426-88df-3cc375966a92" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Field Name</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Data Type</strong>&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p><strong>Description</strong>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>subscriberId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>ID of the Subscriber&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>eventId&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Integer&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>ID of the event mapped to the Subscriber&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>isActive&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Boolean&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Active status (True/False)&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>createdDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Creation date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>updatedDate&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Date&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Last updated date&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>mappingId</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>String</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>unique ID for the subscriber event map</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<ol start=3D"3">
+<li>
+<p><strong>API Endpoints with Request Bodies</strong>&nbsp; [Will replace t=
+his swagger]</p></li>
+</ol>
+<p><strong>Event APIs</strong>&nbsp;</p>
+<p><em><strong>Create Event</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/events/create&nbsp;</co=
+de></p></li>
+<li>
+<p><strong>Request Body Example:</strong>&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+&nbsp; &nbsp; "eventName": "DOCUMENT_INTITATED",
+&nbsp; &nbsp; "description": "document intitated",
+&nbsp; &nbsp; "status": true,
+&nbsp; &nbsp; "schemaId": "762348708732",
+&nbsp; &nbsp; "schemaVersion": "1.0",
+&nbsp; &nbsp; "priority": "MEDIUM",
+&nbsp; &nbsp; "schemaValidationRequired": true
+  }</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "responseCode": "200",
+    "responseMessage": "SUCCESS",
+    "displayMessage": "Event Detail Created Successfully",
+    "data": {
+        "eventID": "1374702085072216064"
+    },
+    "requestId": "682db1153238c476232cea69601caac2",
+    "timestamp": 1747824917812
+}</pre>
+</div>
+</div>
+<p><em><strong>Update Event</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/events/update&nbsp;</co=
+de></p></li>
+<li>
+<p><strong>Request Body Example:</strong>&nbsp;</p></li>
+<li>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+&nbsp; &nbsp; "eventName": "CREATE_INTIMATION",
+&nbsp; &nbsp; "description": "Create intimation event",
+&nbsp; &nbsp; "status": true,
+&nbsp; &nbsp; "schemaId": "00101010",
+&nbsp; &nbsp; "priority": "HIGH",
+&nbsp; &nbsp; "schemaValidationRequired": true
+}</pre>
+</div>
+</div></li>
+</ul>
+<ul>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "responseCode": "200",
+    "responseMessage": "SUCCESS",
+    "displayMessage": "Event Table Updated successfully",
+    "data": {
+        "eventId": "1374040013304619008",
+        "eventName": "CREATE_INTIMATION",
+        "description": "Create intimation event",
+        "createdDate": "2025-05-19T20:34:27.604",
+        "updatedDate": "2025-05-20T11:26:54.258614400",
+        "status": true,
+        "schemaId": "00101010",
+        "priority": "HIGH",
+        "schemaValidationRequired": true
+    },
+    "requestId": "682c19a538cec56667ee302f158fe95b",
+    "timestamp": 1747720614325
+}</pre>
+</div>
+</div>
+<p><br>
+ &nbsp;</p>
+<p><em><strong>View Event</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/events/{eventId}{eventNa=
+me}</code></p></li>
+<li>
+<p><strong>Request Param : </strong><code>eventId</code> or <code>event</co=
+de></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "responseCode": "200",
+    "responseMessage": "SUCCESS",
+    "displayMessage": "Event Details Fetched Successfully",
+    "data": {
+        "eventId": "1373973976601190400",
+        "eventName": "INTIMATION_CREATED",
+        "description": "nothig to say",
+        "createdDate": "2025-05-19T16:12:03.223",
+        "updatedDate": null,
+        "status": true,
+        "schemaId": "7330481174778421248",
+        "priority": "HIGH",
+        "schemaValidationRequired": true
+    },
+    "requestId": "682db1c2f0e43d863508ddcf95c189e2",
+    "timestamp": 1747825090561
+}
+ &nbsp;</pre>
+</div>
+</div>
+<p></p>
+<p><em><strong>View All Events</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/events</code></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "responseCode": "200",
+    "responseMessage": "SUCCESS",
+    "displayMessage": "Event Details Fetched Successfully",
+    "data": [
+        {
+            "eventId": "1373904311078215680",
+            "eventName": "evet1",
+            "description": "nothig to say",
+            "createdDate": "2025-05-19T11:35:13.673",
+            "updatedDate": "2025-05-19T11:35:13.673",
+            "status": true,
+            "schemaId": "fd4",
+            "priority": "MEDIUM",
+            "schemaValidationRequired": true
+        },
+        {
+            "eventId": "1373904518272638976",
+            "eventName": "event03",
+            "description": "nothig to say",
+            "createdDate": "2025-05-19T11:36:03.067",
+            "updatedDate": "2025-05-19T11:45:23.920",
+            "status": true,
+            "schemaId": "fd4",
+            "priority": "MEDIUM",
+            "schemaValidationRequired": false
+        },
+        {
+            "eventId": "1373919092224393216",
+            "eventName": "intimation.create",
+            "description": "Create intimation event",
+            "createdDate": "2025-05-19T12:33:57.768",
+            "updatedDate": "2025-05-19T13:34:17.121",
+            "status": true,
+            "schemaId": "00101010",
+            "priority": "HIGH",
+            "schemaValidationRequired": true
+        },
+        {
+            "eventId": null,
+            "eventName": "reversefeed.create",
+            "description": "Create intimation event",
+            "createdDate": null,
+            "updatedDate": "2025-05-19T14:06:56.419",
+            "status": true,
+            "schemaId": "00101010",
+            "priority": "HIGH",
+            "schemaValidationRequired": true
+        }
+    ],
+    "requestId": "682b382f5257d070b31cd4cd725fcc7f",
+    "timestamp": 1747662895737
+}</pre>
+</div>
+</div>
+<p><strong>Publisher APIs</strong>&nbsp;</p>
+<p><em><strong>Create Publisher</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/publisher/create&nbsp;<=
+/code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"nam=
+e": "OrderService",&nbsp;</code><br><code>"description": "Publishes order e=
+vents",&nbsp;</code><br><code>"isActive": true}&nbsp;</code></p></li>
+<li>
+<p><strong>ResponseBody:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Added Successfully",&nbs=
+p;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}<strong> </strong>&nbsp;</p>
+<p><em><strong>Update Publisher</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/publisher/update&nbsp;<=
+/code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"nam=
+e": "OrderServiceUpdated",&nbsp;</code><br><code>"description": "Updated pu=
+blisher description",&nbsp;</code><br><code>"isActive": false&nbsp;</code><=
+br><code>}&nbsp;</code></p></li>
+<li>
+<p><strong>ResponseBody:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Updated Successfully",&n=
+bsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>View Publisher</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/publisher/view{publisher=
+Id}&nbsp;</code></p></li>
+<li>
+<p><strong>Request Param: </strong><code>publisherId</code></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p><strong>{</strong>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Fetched Successfully",&n=
+bsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{&nbsp;</p>
+<p>=E2=80=9CpublisherId=E2=80=9D:=E2=80=9D<code> 0987654321</code>=E2=80=9D=
+&nbsp;</p>
+<p><code>"name": "abc",&nbsp;</code><br>
+=E2=80=9CisActive=E2=80=9D: True,&nbsp;</p>
+<p>}]&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code></p>
+<p>&nbsp;</p>
+<p><em><strong>View All Publisher</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/publisher/view&nbsp;</co=
+de></p></li>
+<li>
+<p><strong>Response Body Example:{</strong>&nbsp;</p></li>
+</ul>
+<p>"responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Fetched Successfully",&n=
+bsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{&nbsp;</p>
+<p>=E2=80=9CpublisherId=E2=80=9D:=E2=80=9D<code> 0987654321</code>=E2=80=9D=
+&nbsp;</p>
+<p><code>"name": "abc",&nbsp;</code><br>
+=E2=80=9CisActive=E2=80=9D: True,&nbsp;</p>
+<p>}]&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>}</strong>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Subscriber APIs</strong>&nbsp;</p>
+<p><em><strong>Create Subscriber</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/subscriber/create&nbsp;=
+</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"nam=
+e": "OrderTrackingService",&nbsp;</code><br><code>"description": "Receives =
+order events for tracking",&nbsp;</code><br><code>"isActive": true&nbsp;</c=
+ode><br><code>}&nbsp;</code></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>"responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Created Successfully",&=
+nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{&nbsp;</p>
+<p>=E2=80=9CsubscriberId=E2=80=9D:=E2=80=9D<code> 0987654321</code>=E2=80=
+=9D&nbsp;</p>
+<p><code>"name": "abc",&nbsp;</code><br>
+=E2=80=9CisActive=E2=80=9D: True,&nbsp;</p>
+<p>}]&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>&nbsp;</p>
+<p>}<code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>Update Subscriber</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/subscriber/update&nbsp;=
+</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"sub=
+scriberId": "1122334455",&nbsp;</code><br><code>"name": "OrderTrackingServi=
+ceV2",&nbsp;</code><br><code>"description": "Updated subscriber info",&nbsp=
+;</code><br><code>"isActive": true&nbsp;</code><br><code>}&nbsp;</code></p>=
+</li>
+<li>
+<p><strong>ResponseBody:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Updated Successfully",&=
+nbsp;</p>
+<p style=3D"margin-left: 30.0px;">"data": {<br>
+"name": "OrderTrackingService",&nbsp;<br>
+"description": "Receives order events for tracking",&nbsp;<br>
+"isActive": true&nbsp;</p>
+<p style=3D"margin-left: 30.0px;">}</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>View Subscriber</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/subscriber/view{subscrib=
+erId}&nbsp;</code></p></li>
+<li>
+<p><strong>Request Param: </strong><code>subscriberId</code></p></li>
+<li>
+<p><strong>Response Body Example:</strong><code>&nbsp;</code></p></li>
+</ul>
+<p><code>{&nbsp;</code></p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Fetched Successfully",&=
+nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{&nbsp;</p>
+<p>=E2=80=9CsubscriberId=E2=80=9D:=E2=80=9D<code> 0987654321</code>=E2=80=
+=9D&nbsp;</p>
+<p><code>"name": "abc",&nbsp;</code><br>
+=E2=80=9CisActive=E2=80=9D: True,&nbsp;</p>
+<p>}]&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p><code>}&nbsp;</code></p>
+<p>&nbsp;</p>
+<p><em><strong>View All Subscriber</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/subscriber/view&nbsp;</c=
+ode></p></li>
+<li>
+<p><strong>Response Body Example:</strong><code>&nbsp;</code></p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>"responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Fetched Successfully",&=
+nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{&nbsp;</p>
+<p>=E2=80=9CsubscriberId=E2=80=9D:=E2=80=9D<code> 0987654321</code>=E2=80=
+=9D&nbsp;</p>
+<p><code>"name": "abc",&nbsp;</code><br>
+=E2=80=9CisActive=E2=80=9D: True,&nbsp;</p>
+<p>}]&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Publisher-Event Mappings</strong>&nbsp;</p>
+<p><em><strong>Create Publisher-Event Mapping</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/publisher_event/create&=
+nbsp;</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"pub=
+lisherId": "0987654321",&nbsp;</code><br><code>"eventId": "1234567890",&nbs=
+p;</code><br><code>"isActive": true&nbsp;</code><br><code>}&nbsp;</code></p=
+></li>
+<li>
+<p><strong>Response Body Example: </strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Mapped to&nbsp;the Event=
+ Successfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>Update Publisher-Event Mapping</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/publisher_event/update&=
+nbsp;</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"pub=
+lisherId": "0987654321",&nbsp;</code><br><code>"eventId": "1234567890",&nbs=
+p;</code><br><code>"isActive": false&nbsp;</code><br><code>}&nbsp;</code></=
+p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Event Mapping Updated Su=
+ccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>View Publisher-Event Mappings</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/publisher_event/view</co=
+de>{publisherId}{eventId}</p></li>
+<li>
+<p><strong>Request Param: </strong>{publisherId}{eventId}</p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p><strong>{</strong>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Event Mapping fetched Su=
+ccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{</p>
+<ul>
+<li>
+<p><code>"publisherId": "0987654321",&nbsp;</code><br><code>"eventId": "123=
+4567890",&nbsp;</code><br><code>"isActive": false</code></p></li>
+</ul>
+<p>}]</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p><strong>}</strong>&nbsp;</p>
+<p>&nbsp;</p>
+<p><em><strong>View All Publisher-Event Mappings</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/publisher_event/view</co=
+de></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Publisher Event Mapping fetched Su=
+ccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{</p>
+<ul>
+<li>
+<p><code>"publisherId": "0987654321",&nbsp;</code><br><code>"eventId": "123=
+4567890",&nbsp;</code><br><code>"isActive": false</code></p></li>
+</ul>
+<p>}]</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p>&nbsp;</p>
+<p><code>&nbsp;</code></p>
+<p><strong>Subscriber-Event Mappings</strong>&nbsp;</p>
+<p><em><strong>Create Subscriber-Event Mapping</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/subscriber_event/create=
+&nbsp;</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"sub=
+scriberId": "1122334455",&nbsp;</code><br><code>"eventId": "1234567890",&nb=
+sp;</code><br><code>"isActive": true&nbsp;</code><br><code>}&nbsp;</code></=
+p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Event Mapping created S=
+uccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+ &nbsp;</p>
+<p><em><strong>Update Subscriber-Event Mapping</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>POST int/api/v1/subscriber_event/update=
+&nbsp;</code></p></li>
+<li>
+<p><strong>Request Body Example:</strong><code>{&nbsp;</code><br><code>"sub=
+scriberId": "1122334455",&nbsp;</code><br><code>"eventId": "1234567890",&nb=
+sp;</code><br><code>"isActive": false&nbsp;</code><br><code>}&nbsp;</code><=
+/p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Event Mapping Updated S=
+uccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": null&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p><code>&nbsp;</code><br>
+&nbsp;</p>
+<p><em><strong>View Subscriber-Event Mappings</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/subscriber_event/view</c=
+ode>{subscriberId}{eventID}</p></li>
+<li>
+<p><strong>Request Param: </strong>{subscriberId}{eventID}</p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Event Mapping fetched S=
+uccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{</p>
+<ul>
+<li>
+<p><code>"subscriberId": "0987654321",&nbsp;</code><br><code>"eventId": "12=
+34567890",&nbsp;</code><br><code>"isActive": false</code></p></li>
+</ul>
+<p>}]</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><em><strong>View All Subscriber-Event Mappings</strong>&nbsp;</em></p>
+<ul>
+<li>
+<p><strong>Endpoint:</strong> <code>GET int/api/v1/subscriber_event/view&nb=
+sp;</code></p></li>
+<li>
+<p><strong>Response Body Example:</strong>&nbsp;</p></li>
+</ul>
+<p>{&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseCode": "200",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "responseMessage": "SUCCESS",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "displayMessage": "Subscriber Event Mapping fetched S=
+uccessfully",&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp; "data": [{</p>
+<ul>
+<li>
+<p><code>"publisherId": "0987654321",&nbsp;</code><br><code>"eventId": "123=
+4567890",&nbsp;</code><br><code>"isActive": false</code></p></li>
+</ul>
+<p>}]</p>
+<p>&nbsp;&nbsp;&nbsp; "requestId": "681d9a63a00d88cc3eda09c971649b63",&nbsp=
+;</p>
+<p>&nbsp;&nbsp;&nbsp; "timestamp": 1746770533063&nbsp;</p>
+<p>}&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ol start=3D"4">
+<li>
+<p><strong>Database Details</strong>&nbsp;</p></li>
+</ol>
+<p>The data is stored in <strong>MongoDB</strong>, a NoSQL database, with e=
+ach collection representing a component of the data model.&nbsp;</p>
+<p>&nbsp;</p>
+<ol start=3D"5">
+<li>
+<p><strong>Unique ID Generation</strong>&nbsp;</p></li>
+</ol>
+<p>To generate unique identifiers for publishers, subscribers, and events, =
+the system uses the <strong>Snowflake algorithm</strong>. This ensures each=
+ ID is unique, scalable, and efficiently generated.&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_54_911435261.1763894820862
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/dcdabe3490a575208a1ed87451c313277e9b391b1f6b0f08f4f099f1b81b04d5
+
+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
+------=_Part_54_911435261.1763894820862
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ea276b97a0435bd78195762500300ab2e3943aee05cbb44e68211164fe091a60
+
+/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6ACADAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
+CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
+CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3OS7u
+VkKraBgCefNAzQAhu7oMQLMEcciYdaAGW+qLNMEbyFGduRcKx3emB3qZSjG3M7XFc0KoZlzw2fny
+O9vEWJ5JLf4UwFW2tXIQW0J5yAWbrjHpQBZisLVPm+x26Pu3fKg6+ucdaiUIys5K9gsWqoCobx0l
+dGtpSAcAqpOaAD7d/wBO1x/37NAD3uHVowsLne23pwvBOT6DjH1NAm30JgSetAIdigYYoAMUAIpy
+AaAFoAKACgBqfcFAEL3e2Zolhd2Az8rL/InNAB9ok/59JvzX/GgB0MzSkhoJY+Or4/oTQBIh+XHp
+QAuxd27aN3rigBaACgBqfcFADqACgAoAan3BQBmy61FFeG2KvvD7PucZ/OlfU45YyCqezs73tsOT
+V42zkhQO5H+FM6eZj5tQaKRRsDKRnIoFzMsQTebjGNpGRxQUpXZnTXGoC9ZEsgYN+PM3j7vc4qdb
+nJKdb2llDS+9x8TTtkvAoHYdDVG46RpknHlxblI5OP60AXIc7z9KCo7mBctY/wBssGvLoTecP3YP
+y57Dp0r0oKr7HSKtb5nHN0/a6yd7lyFo8sVlnHHVgD/SuI7B8hiN0VcyZ44HT9OaALtoEB+TOMcZ
+z6+9TLYcdxkkuJyoFtjP8UmG/LFTzA5Qva4qMqoPkt1PcK/H8qLsfuj18kEtIsSn1Bz+uBRdh7pL
+GULHbt9sHtRcat0OfubbOrs/9lO/70HzvNIHb5se1RbXY8ydP9/f2fXe/wCJbW1DAn7Lt56NIeas
+7yxMhkwnlhl65LEYNIRPaqQ2CuMLjrmguO5iXNsp1lpP7PuWPnA+aG+X69On416UJv2NudbbHFKC
+9tfle+5oKrOCfIlHP8UpFcR2D2i+f5Y2ORnO8igCxaqQ3KEHb/eyOtTLYcdyrPqFuLtoftskb7tm
+wKMA/Uis7oyeKpKfI3qPW7jBJN3Ie3O3/Cma8w5rtBEJPOkKE4BAX/CgfMWYJ1m+624euR/Sgalc
+yJzcf2k2LO1KeYP3hI3Y9euc0ckt7HBP2ntdIK19+pOgck77aLGP4SP8admdQ9yyMgSNNg5xkAg+
+3NFmMtWzFmzgDj1zSs0VHcxLi03au0n9kyP+9B84SnH+9j2r0YVP3NvadNrfgccofvb8nXe/4l+C
+FkJdLYoenzOeR+Vcd0dY51cMGa03lvvY5x+Yo0AtWyBW4j2jb6Y/CplsVHczrjU411EwZvFYOE+Q
+Lsz/ADxWfN0OaWLgqns7O+xaWcKv37k4OeV/+tTOjnHpchW/5bNn1HH8qA5yxHLvcrg9M+1A1K5T
+mvUFy0S38KNnb5ZUE59OtF0Q69NS5ebUeLkDObqM5PHyjj9aC+ZDjchVVzMNhPUJnP60BzIsRyLI
+TtOQeRxQNNMw7hG/tRj/AGOrjzR+/wA/+PdO1T12POnF+2/hdd/1LKw7gf8AQ4156M3/ANaq1Owe
+wZRGn2bcg5wpyB/jQBbthhuE2jb6YxQXHcwrlIf7ZYm1vi/nD51+5n16dK9KDl7H4lt8zimo+22e
+/wAi9bFI2J2XA4/jUn+QriOwTEaOxNvK/PdeP5UAX7Ucj5Cny9M9KmWw47j3a5Dny1hKdtzEH+VQ
+WN3XmB8tvn/fP+FACSNd4+ULnP8AAc8e+aALCbsfN1oAxJ0J1Fj/AGqqfvB+54z9Ov8ASp67nnzi
+/a39p12/QfFAJMg3bMw/uNVHUSSRgIsAmO/Oct1x9aALloCuAWDELyfWgqO5kXD2w1RwdMmZ/NH7
+4Kduf734V0rDRcOfmRxyjT9r8Gt9/wBSzbKjIx+y4X7wJ5zWPKdY5pVdtzWsjHGOVo5QsW7MqScR
+lOOmMUnGxUdyrLa6m16zpcoIN+dm0Z2+ldEZ0eSzjqYuFbnunoTJDeDO5kb8MVjdG1mKbeZmBLlR
+jlV//XRdBZk8ETRscliCP4jmpk0NJjJp4YJAZp9meisQAakob/aNn/z8Rf8AfQoAmE8bDIOR7UAP
+QhiSM0AQXDSKw2W/m/jjFAEPmT/8+H/jwoAkRnYfNb7D6Zz/ACoAsRdPu4oAguYnkcbZHQAfwkf1
+FAEP2WX/AJ+ZvzX/AAoAT7LL/wA/U35r/hQBctkKJtZixHdiMn8qAK175G9fO83Pby93/stAFZWs
+1IYG5yOefMP6UAWI54HO1fM4HdCP5igC3DjBxn8aAIrjz9w8kxD13igCLF7/AHrb8j/jQBIvm7Rv
+KZ77cYoAnizjnH4UARz2kdwR5gJx0wxH8qAI/wCzLf8Aut/38b/GgCYW4Hc0APRNlAD6ACgAoAKA
+P//Z
+------=_Part_54_911435261.1763894820862--
